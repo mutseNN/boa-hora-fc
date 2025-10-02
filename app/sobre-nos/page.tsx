@@ -11,8 +11,7 @@ export default async function Sobre() {
   return (
     <section>
       <h2 className="text-2xl font-bold">Sobre Nós</h2>
-      <p className="mt-4 text-lg whitespace-pre-line">{c.sobre?.text}</p>
-      
+      <p className="mt-4 text-lg whitespace-pre-line">{c.sobre?.text}</p>   
     </section>
   )
 }

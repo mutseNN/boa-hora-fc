@@ -34,9 +34,8 @@ export default function CampoFutsalPage() {
   return (
     <div>
       <h2 className="text-2xl font-bold mb-4">Campo de Futsal</h2>
-      <p className="mb-6">{content.futsal.text}</p>
+      <p className="mt-4 text-lg whitespace-pre-line">{content.futsal.text}</p>
 
-      {/* Preços */}
       <div className="mb-6">
         <div className="flex justify-between border-b py-1">
           <span>1 hora</span>
@@ -48,7 +47,6 @@ export default function CampoFutsalPage() {
         </div>
       </div>
 
-      {/* Formulário */}
       <form onSubmit={handleSubmit} className="mb-6 space-y-4">
         <div>
           <label className="block text-sm font-medium mb-1">Nome</label>
@@ -78,7 +76,6 @@ export default function CampoFutsalPage() {
 
       {mensagem && <p className="text-green-600">{mensagem}</p>}
 
-      {/* Imagem */}
       <div className="flex justify-center">
         <Image src={content.futsal.image} alt="Campo de Futsal" width={800} height={500} className="rounded" />
       </div>

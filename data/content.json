@@ -8,46 +8,22 @@
     "image": "/images/tenis.jpg"
   },
   "padel": {
-    "text": "Padel.\n\n",
+    "text": "A modalidade de padel é a nossa mais recente aposta. Com este desporto a ficar rápidamente popular decidimos investir em dois campos e no material necessário para conseguir que o Boa Hora FC tivesse representação nesta nova modalidade.\n\nNo dia 1 de Dezembro vamos ter a nossa estreia no campeonato nacional.\n\n",
     "image": "/images/padel.jpg"
   },
   "crossfit": {
-    "text": "Cross-fit.\n\n",
+    "text": "O nosso clube tem um ginásio dentro do pavilhão onde os membros podem fazer treinos de cross-fit.\nTemos todo o material necessário e o devido acompanhamento para que os nossos atletas tenham os melhores resultados possíveis.\n\n",
     "image": "/images/crossfit.jpg"
   },
   "cafe": {
-    "text": "Café exterior.",
-    "prices": [
-      {
-        "item": "Café",
-        "price": "1€"
-      },
-      {
-        "item": "Bifana",
-        "price": "3.5€"
-      }
-    ],
+    "text": "O nosso clube dispõe de um café exterior onde podes beber ou comer alguma coisa.\n\nAqui em baixo podes consultar a tabela de preços.\n\n",
     "image": "/images/cafe.jpg"
   },
   "futsal": {
-    "text": "Aluguer do campo exterior de futsal.",
-    "prices": [
-      {
-        "duration": "1 hora",
-        "price": "20€"
-      },
-      {
-        "duration": "2 horas",
-        "price": "35€"
-      },
-      {
-        "duration": "2 horas",
-        "price": "45€"
-      }
-    ],
+    "text": "O nosso clube dispõe de um campo de futsal exterior que pode ser alugado para jogares com os teus amigos!\n\nAqui em baixo podes consultar os preços e fazer a tua marcação.\n",
     "image": "/images/futsal.jpg"
   },
   "sobre": {
-    "text": "Fundado em 2000 o Boa Hora FC é um clube dedicado ao desporto e convívio.\n\nSe tiver qualquer questão não hesite em contactar-nos!\n\nTelemóvel: 965432109\nTelefone: 281234321\nEmail: boahorafc@info.com"
+    "text": "Fundado em 2000 o Boa Hora FC é um clube dedicado ao desporto e convívio.\n\nSe tiver qualquer questão não hesite em contactar-nos!\n\nTelemóvel: 965432109\nTelefone: 281234321\nEmail: boahorafc@info.com\n\nMorada: Rua das cenouras 11 Lisboa"
   }
 }
