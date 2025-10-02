@@ -6,8 +6,8 @@ import { cookies } from 'next/headers'
 const filePath = path.join(process.cwd(), 'data', 'content.json')
 
 export async function GET() {
-  const cookiesData = await cookies() // Espera a Promise ser resolvida
-  if (cookiesData.get('auth')?.value !== 'true') {
+  const cookieStore = cookies(); // Não precisamos de await aqui
+  if (cookieStore.get('auth')?.value !== 'true') {
     return NextResponse.json({}, { status: 401 })
   }
   const raw = await fs.readFile(filePath, 'utf-8')
@@ -15,8 +15,8 @@ export async function GET() {
 }
 
 export async function POST(req: Request) {
-  const cookiesData = await cookies() // Espera a Promise ser resolvida
-  if (cookiesData.get('auth')?.value !== 'true') {
+  const cookieStore = cookies(); // Não precisamos de await aqui
+  if (cookieStore.get('auth')?.value !== 'true') {
     return NextResponse.json({}, { status: 401 })
   }
   const body = await req.json()
