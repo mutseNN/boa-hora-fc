@@ -1,15 +1,13 @@
 import { NextResponse } from 'next/server'
 import fs from 'fs/promises'
 import path from 'path'
-import { cookies as getCookies } from 'next/headers'
-import type { ReadonlyRequestCookies } from 'next/dist/server/web/spec-extension/adapters/request-cookies'
+import { cookies } from 'next/headers'
 
 const filePath = path.join(process.cwd(), 'data', 'content.json')
 
 export async function GET() {
-  const cookies = getCookies() as ReadonlyRequestCookies
-
-  if (cookies.get('auth')?.value !== 'true') {
+  const cookieStore = cookies(); // <- deve ser síncrono
+  if (cookieStore.get('auth')?.value !== 'true') {
     return NextResponse.json({}, { status: 401 })
   }
 
@@ -18,9 +16,8 @@ export async function GET() {
 }
 
 export async function POST(req: Request) {
-  const cookies = getCookies() as ReadonlyRequestCookies
-
-  if (cookies.get('auth')?.value !== 'true') {
+  const cookieStore = cookies();
+  if (cookieStore.get('auth')?.value !== 'true') {
     return NextResponse.json({}, { status: 401 })
   }
 
