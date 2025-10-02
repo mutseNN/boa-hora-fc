@@ -1,0 +1,53 @@
+{
+  "home": {
+    "text": "Bem vindo ao site oficial do Boa Hora FC!\n\n A modalidade principal do nosso clube é o Andebol mas também temos outras opções como o Ténis de mesa, o Padel e o Cross-fit!\n\n De momento estamos na segunda divisão do campeonato nacional de Andebol de séniores e temos equipas de todos os escalões disponíveis para quem se quiser inscrever e experimentar este magnífico desporto.\n\n",
+    "image": "/images/home.jpg"
+  },
+  "tenis": {
+    "text": "Ténis de Mesa.\n\n",
+    "image": "/images/tenis.jpg"
+  },
+  "padel": {
+    "text": "Padel.\n\n",
+    "image": "/images/padel.jpg"
+  },
+  "crossfit": {
+    "text": "Cross-fit.\n\n",
+    "image": "/images/crossfit.jpg"
+  },
+  "cafe": {
+    "text": "Café exterior.",
+    "prices": [
+      {
+        "item": "Café",
+        "price": "1€"
+      },
+      {
+        "item": "Bifana",
+        "price": "3.5€"
+      }
+    ],
+    "image": "/images/cafe.jpg"
+  },
+  "futsal": {
+    "text": "Aluguer do campo exterior de futsal.",
+    "prices": [
+      {
+        "duration": "1 hora",
+        "price": "20€"
+      },
+      {
+        "duration": "2 horas",
+        "price": "35€"
+      },
+      {
+        "duration": "2 horas",
+        "price": "45€"
+      }
+    ],
+    "image": "/images/futsal.jpg"
+  },
+  "sobre": {
+    "text": "Fundado em 2000 o Boa Hora FC é um clube dedicado ao desporto e convívio.\n\nSe tiver qualquer questão não hesite em contactar-nos!\n\nTelemóvel: 965432109\nTelefone: 281234321\nEmail: boahorafc@info.com"
+  }
+}
